@@ -89,8 +89,6 @@ public class Logica_Juego {
             case 1:
                return paltemp=Pal[0][ran];
 
-
-
             case 2:
                 return paltemp=Pal[1][ran];
 
@@ -98,7 +96,7 @@ public class Logica_Juego {
                 return paltemp= Pal[2][ran];
 
             case 4:
-                return Pal[3][ran];
+                return paltemp= Pal[3][ran];
 
             case 5:
                 return paltemp=Pal[4][ran];
@@ -115,9 +113,9 @@ public class Logica_Juego {
         }else if(paltemp.charAt(b) == a){
             lin[b]=a;
             cont++;
-            verificar(a,b++);
+            verificar(a,b+1);
         }else{
-            verificar(a,b++);
+            verificar(a,b+1);
         }
     }
 
@@ -126,8 +124,8 @@ public class Logica_Juego {
             return linea;
 
         }else{
-            linea= linea+"-";
-            return Arreglo(a++);
+
+            return "-"+ Arreglo(a+1);
         }
     }
     public boolean finalizar_(){

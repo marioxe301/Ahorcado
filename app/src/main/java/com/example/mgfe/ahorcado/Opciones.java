@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by MGFE on 16/11/2017.
@@ -21,9 +22,13 @@ public class Opciones extends Main_Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Opciones.this, Juego.class);
-                lg.opcion(1);
-                lg.Arreglo(0);
+                intent.putExtra("Paltem",lg.opcion(1));
+                intent.putExtra("Arln",lg.Arreglo(0));
+                intent.putExtra("ln",Logica_Juego.lin);
+                intent.putExtra("cont",Logica_Juego.cont);
+                intent.putExtra("Fin",Logica_Juego.finalizar);
                 startActivity(intent);
+
 
             }
         });
@@ -33,8 +38,11 @@ public class Opciones extends Main_Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Opciones.this, Juego.class);
-                lg.opcion(2);
-                lg.Arreglo(0);
+                intent.putExtra("Paltem",lg.opcion(2));
+                intent.putExtra("Arln",lg.Arreglo(0));
+                intent.putExtra("ln",Logica_Juego.lin);
+                intent.putExtra("cont",Logica_Juego.cont);
+                intent.putExtra("Fin",Logica_Juego.finalizar);
                 startActivity(intent);
 
             }
@@ -45,8 +53,11 @@ public class Opciones extends Main_Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Opciones.this, Juego.class);
-                lg.opcion(3);
-                lg.Arreglo(0);
+                intent.putExtra("Paltem",lg.opcion(3));
+                intent.putExtra("Arln",lg.Arreglo(0));
+                intent.putExtra("ln",Logica_Juego.lin);
+                intent.putExtra("cont",Logica_Juego.cont);
+                intent.putExtra("Fin",Logica_Juego.finalizar);
                 startActivity(intent);
 
             }
@@ -57,8 +68,12 @@ public class Opciones extends Main_Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Opciones.this, Juego.class);
-                lg.opcion(4);
-                lg.Arreglo(0);
+                intent.putExtra("Paltem",lg.opcion(4));
+                intent.putExtra("Arln",lg.Arreglo(0));
+                intent.putExtra("ln",Logica_Juego.lin);
+                intent.putExtra("cont",Logica_Juego.cont);
+                intent.putExtra("Fin",Logica_Juego.finalizar);
+
                 startActivity(intent);
 
             }
@@ -69,8 +84,11 @@ public class Opciones extends Main_Activity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Opciones.this, Juego.class);
-                lg.opcion(5);
-                lg.Arreglo(0);
+                intent.putExtra("Paltem",lg.opcion(5));
+                intent.putExtra("Arln",lg.Arreglo(0));
+                intent.putExtra("ln",Logica_Juego.lin);
+                intent.putExtra("cont",Logica_Juego.cont);
+                intent.putExtra("Fin",Logica_Juego.finalizar);
                 startActivity(intent);
 
             }
