@@ -20,7 +20,7 @@ public class Juego extends Main_Activity {
     String pal;
     char []Arlin;
     boolean check;
-    int []imagenes = {R.drawable.hangman01,R.drawable.hangman02,R.drawable.hangman03,R.drawable.hangman04,R.drawable.hangman05,R.drawable.hangman06,R.drawable.hangman07,R.drawable.hangman08,R.drawable.hangman09,R.drawable.hangman10,R.drawable.hangman11,R.drawable.hangman12,R.drawable.hangman13,R.drawable.hangman14,R.drawable.hangman15,R.drawable.hangman_completo};
+    int []imagenes = {R.drawable.hangman00,R.drawable.hangman01,R.drawable.hangman02,R.drawable.hangman03,R.drawable.hangman04,R.drawable.hangman05,R.drawable.hangman06,R.drawable.hangman07,R.drawable.hangman08,R.drawable.hangman09,R.drawable.hangman10,R.drawable.hangman11,R.drawable.hangman12,R.drawable.hangman13,R.drawable.hangman14,R.drawable.hangman15};
 
 
     protected void onCreate(Bundle savedInstanceState) {
